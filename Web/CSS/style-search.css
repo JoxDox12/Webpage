@@ -1,0 +1,32 @@
+.search{
+    margin: 10px;
+    float: right;
+    width: auto;
+    height: auto;
+}
+#container{
+    margin: 10px;
+    border: 2px solid #ff0000;
+    border-radius: 5px;
+    background-color: #ffffff00;
+    backdrop-filter: blur(4px);
+}
+#container:hover{
+    border: 2px solid #ffffff;
+    box-shadow: 0 0 10px #ffffff, 0 0 10px #ffffff, 0 0 10px #ffffff;
+    border-radius: 5px;
+    backdrop-filter: blur(4px);
+}
+#btn{
+    margin: 10px;
+    border: 2px solid #ff0000;
+    border-radius: 5px;
+    background-color: #ff000000;
+    backdrop-filter: blur(4px);
+}
+
+#btn:hover{
+    background-color: #ff0000;
+    box-shadow: 0 0 10px #ff0000, 0 0 10px #ff0000, 0 0 10px #ff0000;
+    border-radius: 5px;
+}

@@ -4,14 +4,14 @@
     width: auto;
     height: auto;
 }
-#container{
+#input{
     margin: 10px;
     border: 2px solid #ff0000;
     border-radius: 5px;
     background-color: #ffffff00;
     backdrop-filter: blur(4px);
 }
-#container:hover{
+#input:hover{
     border: 2px solid #ffffff;
     box-shadow: 0 0 10px #ffffff, 0 0 10px #ffffff, 0 0 10px #ffffff;
     border-radius: 5px;
@@ -19,14 +19,16 @@
 }
 #btn{
     margin: 10px;
-    border: 2px solid #ff0000;
+    border: 2px solid #00ab00;
     border-radius: 5px;
-    background-color: #ff000000;
+    background-color: #00ab00;
     backdrop-filter: blur(4px);
 }
 
 #btn:hover{
-    background-color: #ff0000;
-    box-shadow: 0 0 10px #ff0000, 0 0 10px #ff0000, 0 0 10px #ff0000;
+    box-shadow: 0 0 10px #00ab00, 0 0 10px #00ab00, 0 0 10px #00ab00;
     border-radius: 5px;
+}
+mark{
+    background-color: #ff0000;
 }

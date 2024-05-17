@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Profile</title>
+        <link rel="icon" href="../IMG/icon.ico" type="image/icon">
+        <link rel="stylesheet" href="../CSS/style.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+        <script src="../JS/getinfo-script.js"></script>
+        <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></-script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script> -->
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    </head>
+    
+    <body>
+        <nav class="navbar navbar-expand-md bg-dark navbar-dark navbar-fixed-top head">
+            <a class="navbar-brand" href="#"><img src="../IMG/logo.jpg" class="img-fluid" height="50" width="50"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menulist"><span
+                    class="navbar-toggler-icon"></span></button>
+            <div id="menulist" class="collapse navbar-collapse">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a href="../HTML/index.html" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="../HTML/gallery.html" class="nav-link">Gallery</a></li>
+                    <li class="nav-item"><a href="../HTML/login.html" class="nav-link">Log in</a></li>
+                    <li class="nav-item"><a href="../HTML/profile.html" class="nav-link">Profile</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="container main">
+            <p class="text" id="title">Your Profile</p>
+            
+            <p class="text" id="textmain">
+                <span type="image" id="profile"></span>
+                <br><br>
+                Name: <span type="text" id="name"></span>
+                <br><br>
+                Birth date: <span type="date" id="birthdate"></span>
+                <br><br>
+                E-mail: <span type="email" id="email"></span>
+                <br><br>
+                Password: <span type="password" id="password"></span>
+                
+            </p>
+        </div>
+        <footer class="navbar-expand-md fixed-bottom bg-dark">
+            <div class="p-3 text">
+               <p class="text-center">© 2024 Copyright: JoxDox</p>
+            </div>
+          </footer>
+    </body>
+</html>
